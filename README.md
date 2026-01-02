@@ -43,6 +43,7 @@ Here we show the **key metrics and traffic-light decision points** as they appea
 ### 1️⃣ Settlement Status Dashboards
 
 **System Stable (Execution Authorised)**
+
 ![Stable Dashboard](assets/Axiom_Dashboard_Green.png)
 
 **System Volatile (Execution Suspended)**
