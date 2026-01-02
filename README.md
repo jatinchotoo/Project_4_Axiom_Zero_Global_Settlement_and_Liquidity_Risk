@@ -1,7 +1,5 @@
 # 🧭 Axiom-Zero: Global Settlement Control & Liquidity Risk Engine
 
-![Axiom-Zero Stable Dashboard](assets/Axiom_Dashboard_Green.png)
-
 > **A mission-critical pre-execution risk gate designed to enforce capital preservation protocols. Axiom-Zero transitionary logic ensures that global settlements are only executed when market volatility and liquidity conditions meet strict regulatory and internal risk appetites.**
 
 ---
