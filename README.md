@@ -1,114 +1,196 @@
-<div align="center">
+# Axiom-Zero  
+## 🌍 Global Settlement Control & Liquidity Risk Engine
 
-# AXIOM-ZERO  
-## Global Settlement & Liquidity Risk Engine
+🧭 **Axiom-Zero** is a **pre-execution settlement control engine** designed to safeguard treasury and liquidity operations by enforcing **real-time risk gates before capital is deployed**.
 
-**Executive-grade automation for global treasury settlement, volatility control, and capital preservation**
+Unlike traditional reporting dashboards that surface risk *after* exposure, Axiom-Zero operates as a **preventative control layer**, evaluating market stability conditions and determining whether settlements are **authorised, paused, or blocked**.
 
-![Status](https://img.shields.io/badge/System-Stable-success)
-![Finance](https://img.shields.io/badge/Domain-Treasury%20%26%20Risk-blue)
-![Stack](https://img.shields.io/badge/Stack-Excel%20%7C%20VBA%20%7C%20Finance-lightgrey)
-
-</div>
+This project demonstrates **decision intelligence, financial risk governance, and executive-grade reporting**, implemented using Microsoft Excel and VBA as a rapid-control prototyping environment.
 
 ---
-
-## 🧭 Executive Summary
-
-**Axiom-Zero** is a high-integrity global settlement engine designed to automate liquidity clearing while actively mitigating capital leakage in multi-currency treasury operations.
-
-The system introduces a **VBA-driven Risk Logic Gate** that evaluates real-time market stability *before* authorising settlements. When volatility exceeds predefined thresholds, the engine automatically halts execution — prioritising **capital preservation over throughput**.
-
-Unlike theoretical “100% efficiency” models, Axiom-Zero explicitly models real-world execution friction, making it suitable for **institutional finance, audit, and executive decision environments**.
-
----
-
-## 📊 Executive Control Dashboard (System Stable)
-
-> **Purpose:** Provide a single-screen, CFO-ready view of settlement health and systemic risk.
-
-![Executive Dashboard](assets/axiom_zero_executive_dashboard.png)
-
-**Dashboard Highlights**
-- Real-time settlement status
-- Liquidity cleared across global nodes
-- Volatility index monitoring
-- System efficiency and execution gap visibility
 
 ## 📁 Repository Structure
 
-```text
-/assets
- ├─ axiom_zero_executive_dashboard.png
- ├─ axiom_zero_volatile_state.png
+Project_4_Axiom-Zero-Global-Settlement/
+│
+├── assets/
+│ ├── Axiom_Dashboard_Green.png
+│ └── Axiom_Dashboard_Red.png
+│
+├── Axiom_Zero_Global_Ledger_Data.xlsm
+└── README.md
 
-Axiom_Zero_Global_Ledger_Data.xlsm
- └─ Core settlement engine & VBA logic
----
+## 📊 Executive Control Dashboard — System Stable
 
-## ⚙️ Core System Capabilities
+When volatility and liquidity indicators remain within approved thresholds, the engine authorises settlement execution and displays a **GREEN (STABLE)** operational state.
 
-### 🔐 Dynamic Risk Gate
-- Monitors the **Quantum Volatility Index (QVI)**
-- Conditionally authorises or blocks settlement execution
-- Prevents slippage during unstable market conditions
+![System Stable Dashboard](Project_4_Axiom-Zero-Global-Settlement/assets/Axiom_Dashboard_Green.png)
 
-### 🤖 VBA Automation Engine
-- Deterministic settlement execution
-- Automated audit timestamps
-- Success verification & exception handling
-- Fully transparent logic suitable for audit review
+### Executive Interpretation
+- Market volatility within tolerance  
+- Liquidity conditions verified  
+- Settlement execution authorised  
+- Capital deployment approved  
 
-### 📈 Verified System Performance
-- **Settlement Efficiency:** **99.57%**
-- **Execution Gap:** **0.43% (Explicitly modelled)**
-
-| Source of Friction | Impact |
-|-------------------|--------|
-| Bank Intermediary Fees | 0.10% |
-| FX Slippage | 0.15% |
-| Time-Zone Latency | 0.18% |
-| **Total Execution Gap** | **0.43%** |
-
-> In professional settlement systems, **100% efficiency is neither realistic nor credible**.  
-> Explicitly modelling friction increases executive trust and audit confidence.
+This view is designed for **instant executive assurance**, not analytical overload.
 
 ---
 
-## 🔴 Risk Response Protocol (System Volatile)
+## 🚨 Executive Control Dashboard — System Volatile
 
-When volatility breaches defined thresholds, the engine automatically enters:
+When volatility thresholds are breached, Axiom-Zero automatically transitions to a **RED (VOLATILE)** state and suspends settlement execution to prevent capital leakage.
 
-### **HEDGED: VOLATILE**
+![System Volatile Dashboard](Project_4_Axiom-Zero-Global-Settlement/assets/Axiom_Dashboard_Red.png)
 
-![Risk State](assets/axiom_zero_volatile_state.png)
+### Executive Interpretation
+- Elevated market or liquidity risk detected  
+- Settlement execution blocked  
+- Capital preservation controls activated  
+- Hedging or senior override required  
 
-**Actions Taken**
-- Settlement execution paused
-- Capital exposure frozen
-- Liquidity protected from timing and pricing risk
-
-This mirrors institutional treasury risk governance standards.
-
----
-
-## 🧠 Design Philosophy
-
-- **Executive-first UI** (no explanation required)
-- High-contrast, gridless layout
-- Immediate interpretability via traffic-light logic
-- Designed for CFOs, Treasurers, and Risk Committees
+This mechanism ensures **risk decisions occur before exposure**, not after losses.
 
 ---
 
-## 🛠️ Technical Stack
+## ⚙️ Core Capabilities
 
-| Layer | Technology |
-|-----|------------|
-| Core Engine | Microsoft Excel (Macro-Enabled) |
-| Automation | VBA |
-| Risk Logic | Statistical Variance Modelling |
-| UX/UI | Executive Dashboard Design |
+### 🧠 Dynamic Risk Gate
+- Calculates a proprietary **Quantum Volatility Index (QVI)** using statistical variance modelling  
+- Enforces hard settlement blocks when instability exceeds defined limits  
+- Functions as a **pre-settlement control**, not a retrospective report  
+
+### 🔁 Automated Settlement Logic
+- VBA-driven execution framework  
+- Timestamped audit trail for every decision  
+- Binary outcomes: **AUTHORISE / BLOCK**  
+
+### 🧩 Executive Decision Support
+- Traffic-light signalling (**STABLE / VOLATILE**)  
+- High-contrast, gridless interface optimised for senior leadership  
+- Designed to communicate **risk posture instantly**  
+
+### 📈 Operational Integrity
+- Engineered to maintain a **99.57% verified settlement success rate**  
+- Focused on **capital protection over transaction throughput**  
+
+---
+
+## 🏗️ Technical Architecture
+
+| Layer | Description |
+|------|------------|
+| Core Engine | Microsoft Excel (Macro-Enabled `.xlsm`) |
+| Logic Layer | VBA, statistical variance modelling, liquidity thresholds |
+| Risk Controls | Pre-execution settlement gating & conditional locks |
+| Interface | Executive-grade control dashboard with visual risk signalling |
+
+---
+
+## 📁 Repository Structure
+# Axiom-Zero  
+## 🌍 Global Settlement Control & Liquidity Risk Engine
+
+🧭 **Axiom-Zero** is a **pre-execution settlement control engine** designed to safeguard treasury and liquidity operations by enforcing **real-time risk gates before capital is deployed**.
+
+Unlike traditional reporting dashboards that surface risk *after* exposure, Axiom-Zero operates as a **preventative control layer**, evaluating market stability conditions and determining whether settlements are **authorised, paused, or blocked**.
+
+This project demonstrates **decision intelligence, financial risk governance, and executive-grade reporting**, implemented using Microsoft Excel and VBA as a rapid-control prototyping environment.
+
+---
+
+## 📊 Executive Control Dashboard — System Stable
+
+When volatility and liquidity indicators remain within approved thresholds, the engine authorises settlement execution and displays a **GREEN (STABLE)** operational state.
+
+![System Stable Dashboard](Project_4_Axiom-Zero-Global-Settlement/assets/Axiom_Dashboard_Green.png)
+
+### Executive Interpretation
+- Market volatility within tolerance  
+- Liquidity conditions verified  
+- Settlement execution authorised  
+- Capital deployment approved  
+
+This view is designed for **instant executive assurance**, not analytical overload.
+
+---
+
+## 🚨 Executive Control Dashboard — System Volatile
+
+When volatility thresholds are breached, Axiom-Zero automatically transitions to a **RED (VOLATILE)** state and suspends settlement execution to prevent capital leakage.
+
+![System Volatile Dashboard](Project_4_Axiom-Zero-Global-Settlement/assets/Axiom_Dashboard_Red.png)
+
+### Executive Interpretation
+- Elevated market or liquidity risk detected  
+- Settlement execution blocked  
+- Capital preservation controls activated  
+- Hedging or senior override required  
+
+This mechanism ensures **risk decisions occur before exposure**, not after losses.
+
+---
+
+## ⚙️ Core Capabilities
+
+### 🧠 Dynamic Risk Gate
+- Calculates a proprietary **Quantum Volatility Index (QVI)** using statistical variance modelling  
+- Enforces hard settlement blocks when instability exceeds defined limits  
+- Functions as a **pre-settlement control**, not a retrospective report  
+
+### 🔁 Automated Settlement Logic
+- VBA-driven execution framework  
+- Timestamped audit trail for every decision  
+- Binary outcomes: **AUTHORISE / BLOCK**  
+
+### 🧩 Executive Decision Support
+- Traffic-light signalling (**STABLE / VOLATILE**)  
+- High-contrast, gridless interface optimised for senior leadership  
+- Designed to communicate **risk posture instantly**  
+
+### 📈 Operational Integrity
+- Engineered to maintain a **99.57% verified settlement success rate**  
+- Focused on **capital protection over transaction throughput**  
+
+---
+
+## 🏗️ Technical Architecture
+
+| Layer | Description |
+|------|------------|
+| Core Engine | Microsoft Excel (Macro-Enabled `.xlsm`) |
+| Logic Layer | VBA, statistical variance modelling, liquidity thresholds |
+| Risk Controls | Pre-execution settlement gating & conditional locks |
+| Interface | Executive-grade control dashboard with visual risk signalling |
+
+---
+
+## 🎯 Applicable Use Cases
+
+- Treasury and cash settlement governance  
+- Liquidity and market risk controls  
+- Finance transformation initiatives  
+- Executive risk oversight dashboards  
+- Pre-trade and pre-settlement validation frameworks  
+- Capital preservation and control environments  
+
+---
+
+## 🌐 Professional Context
+
+This project is positioned to demonstrate capability relevant to:
+
+- Banking and Financial Services  
+- Big 4 and Management Consulting  
+- Fintech and Payments Platforms  
+- Risk, Treasury, and Finance Transformation teams  
+- Remote and global finance roles  
+
+---
+
+## ⚠️ Disclaimer
+
+This project is a **demonstration and portfolio system** intended to illustrate settlement governance, liquidity risk controls, and executive reporting concepts.  
+It is not a production-ready settlement platform and does not constitute financial advice.
 
 ---
 
