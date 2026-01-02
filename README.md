@@ -14,56 +14,31 @@ Project_4_Axiom-Zero-Global-Settlement
 ├─ Axiom_Zero_Global_Ledger_Data.xlsm
 └─ README.md
 
-
-![Axiom-Zero Stable Dashboard](assets/Axiom_Dashboard_Green.png)
-
-
 ---
 
 ## 📋 Strategic Overview
 
-Traditional risk management is often retrospective (reporting on losses after they occur). **Axiom-Zero** shifts the paradigm to **preventative governance**.
+Traditional risk management is often **retrospective**, reporting on losses after they occur. **Axiom-Zero** shifts the paradigm to **preventative governance**.  
 
 By acting as a **"Circuit Breaker"** for treasury operations, the engine evaluates real-time market telemetry to determine if a settlement should be **Authorised** or **Hard-Blocked**.
 
-### Core Value Proposition:
+### Core Value Proposition
 
 - **Pre-Execution Gating:** Stops capital leakage before exposure occurs.  
-- **Quantum Volatility Index (QVI):** Proprietary statistical variance model that monitors market stability.  
+- **Quantum Volatility Index (QVI):** Proprietary statistical variance model monitoring market stability.  
 - **Executive Decision Intelligence:** Provides a "Zero-Click" assurance interface for C-Suite stakeholders.
 
 ---
 
-## 📊 Dashboard Visualizations
+## 📊 Dashboard Simulation
 
-Here we show the **key metrics and traffic-light decision points** as they appear on the Axiom-Zero dashboard.
-
-### 1️⃣ Settlement Status Dashboards
-
-**System Stable (Execution Authorised)**
-
+**System Stable (Execution Authorised)**  
 ![Stable Dashboard](assets/Axiom_Dashboard_Green.png)
 
-**System Volatile (Execution Suspended)**
-
+**System Volatile (Execution Suspended)**  
 ![Volatile Dashboard](assets/Axiom_Dashboard_Red.png)
 
----
-
-### 2️⃣ Key Metrics Charts
-
-**ROE & Quantum Volatility Index**
-![ROE Chart](assets/ROE_Chart.png)
-
-**Liquidity Corridor Heatmap**
-![Liquidity Heatmap](assets/Liquidity_Heatmap.png)
-
-**KPI Cards**
-![KPI Cards](assets/KPI_Cards.png)
-
----
-
-### 3️⃣ Settlement Status Table (Traffic-Light Simulation)
+**Settlement Status Table (Traffic-Light Simulation)**
 
 | Settlement | Status |
 |------------|--------|
@@ -73,7 +48,7 @@ Here we show the **key metrics and traffic-light decision points** as they appea
 | AUD → CAD  | 🟢 Authorised |
 | CHF → GBP  | 🔴 Blocked   |
 
-> This table simulates the real-time visual decision-making of the dashboard for executive stakeholders.
+> This table simulates executive-level settlement decisions in real-time.
 
 ---
 
@@ -81,10 +56,10 @@ Here we show the **key metrics and traffic-light decision points** as they appea
 
 The engine is built on a robust framework of financial engineering and automated controls:
 
-- **Dynamic Risk Thresholds:** Statistical modelling of variance to detect market anomalies.  
+- **Dynamic Risk Thresholds:** Detect market anomalies through statistical variance.  
 - **VBA Logic Layer:** Automated binary decision-making (Authorise/Block) with an immutable audit trail.  
 - **Liquidity Validation:** Real-time checking of settlement corridors to ensure transaction success.  
-- **Performance Metric:** Engineered to maintain a **99.57% verified settlement success rate**.
+- **Performance Metric:** Maintains a **99.57% verified settlement success rate**.
 
 ---
 
@@ -121,9 +96,9 @@ Contributions are welcome!
 
 ### 🚀 Professional Highlights
 
-1. **Circuit Breaker Logic:** Uses terminology familiar to high-tier traders and risk managers.  
-2. **Dashboard Visuals Included:** Settlement statuses, ROE charts, liquidity heatmaps, and KPI cards.  
-3. **Clean, Executive Formatting:** Tables, bolded headers, and structured visuals for clarity.  
+1. **Circuit Breaker Logic:** Terminology familiar to high-tier traders and risk managers.  
+2. **Dashboard Visuals:** Green/Red dashboards with traffic-light table simulate executive decision metrics.  
+3. **Clean, Executive Formatting:** Bold headers, tables, and structured visuals.  
 4. **Recruiter-Ready Language:** Governance, risk architecture, and treasury operations framing suitable for Big 4, FinTech, and Investment Banking portfolios.
 
 ---
