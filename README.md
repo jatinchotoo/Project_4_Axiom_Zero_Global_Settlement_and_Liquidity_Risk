@@ -14,6 +14,13 @@
 
 ---
 
+## 📂 Repository Structure
+* **Axiom_Zero_Global_Ledger_Data.xlsm** — Core Risk Engine & Governed Execution Artifact.
+* **assets/** — Visual audit evidence (Dashboard states & control signals).
+* **README.md** — Executive case study & technical governance documentation.
+
+---
+
 ## 🧠 Executive Summary
 Axiom‑Zero acts as a **financial circuit-breaker**, ensuring that global treasury transactions are only authorized when market volatility, liquidity conditions, and internal risk thresholds are met. Unlike "post-mortem" reporting, this engine enforces **real‑time settlement gating** to align treasury execution with institutional-grade risk governance.
 
@@ -21,7 +28,7 @@ Axiom‑Zero acts as a **financial circuit-breaker**, ensuring that global treas
 To provide full transparency on the engine's architecture and performance metrics:
 * **Deployment Model:** Designed as a deterministic control prototype. In a production environment, this logic is intended to sit upstream of a TMS (Treasury Management System) or Payment API.
 * **Performance Metric:** The **99.57% Success Rate** reflects simulated settlement outcomes under permitted risk conditions within the model's high-fidelity dataset.
-* **Liquidity Validation:** Risk gates are modeled based on statistical variance and proxy-spread thresholds rather than direct exchange connectivity.
+* **Liquidity Validation:** Risk gates are modeled based on statistical variance and proxy-spread thresholds.
 * **Execution Logic:** Built in VBA to ensure binary (Stop/Go) decision integrity and an immutable audit trail.
 
 ---
@@ -35,8 +42,6 @@ Global treasury operations face structural risks that manual processes cannot so
 ---
 
 ## ⚙️ Engineering & Risk Control Framework
-Axiom‑Zero replaces subjective "judgment calls" with deterministic financial logic:
-
 1.  **Dynamic Risk Thresholds:** Statistical variance models detect instability.
 2.  **Liquidity Validation Gates:** Corridors are validated via threshold-matching before execution.
 3.  **Binary Decision Logic:** Transactions are either **Approved** or **Blocked**—no "soft warnings."
@@ -55,6 +60,6 @@ Axiom‑Zero replaces subjective "judgment calls" with deterministic financial l
 ---
 
 ## 👨‍💻 Recruiter Note
-This project demonstrates the ability to design **Institutional Risk Controls** that prioritize capital preservation. It showcases a deep understanding of settlement risk, treasury operations, and the transition from manual "check-box" finance to **automated, deterministic governance.**
+This project demonstrates the ability to design **Institutional Risk Controls** that prioritize capital preservation. It showcases a deep understanding of settlement risk, treasury operations, and the transition from manual finance to **automated, deterministic governance.**
 
 **Directly applicable to:** *Treasury Operations • Risk Management • Finance Transformation • Capital Markets • Internal Audit*
