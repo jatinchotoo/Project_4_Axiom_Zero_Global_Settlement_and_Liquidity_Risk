@@ -1,139 +1,60 @@
-# 🧭 Axiom‑Zero  
+# 🧭 Axiom‑Zero
 ## Global Settlement Control & Liquidity Risk Engine
 
+**A pre‑execution treasury risk control engine designed to prevent capital loss before settlement occurs.**
+
+---
+
+## 📊 Control Interface: Decision Intelligence
 ![Axiom Dashboard – Authorised](assets/Axiom_Dashboard_Green.png)
+> *Figure 1: Automated authorization signal when volatility and liquidity thresholds are satisfied.*
+
 ![Axiom Dashboard – Blocked](assets/Axiom_Dashboard_Red.png)
+> *Figure 2: Deterministic "Hard-Block" execution to preserve capital during market dislocation.*
 
 ---
 
-## Executive Summary
+## 🧠 Executive Summary
+Axiom‑Zero acts as a **financial circuit-breaker**, ensuring that global treasury transactions are only authorized when market volatility, liquidity conditions, and internal risk thresholds are met. Unlike "post-mortem" reporting, this engine enforces **real‑time settlement gating** to align treasury execution with institutional-grade risk governance.
 
-**Axiom‑Zero** is a pre‑execution treasury risk control engine designed to **prevent capital loss before settlement occurs**.
-
-Unlike traditional risk systems that report losses after execution, Axiom‑Zero enforces **real‑time settlement gating**, ensuring that global treasury transactions are only authorised when **market volatility, liquidity conditions, and internal risk thresholds** are satisfied.
-
-The platform acts as a **circuit‑breaker for global settlements**, aligning treasury execution with institutional‑grade risk governance standards used in banking, capital markets, and regulated finance environments.
-
----
-
-## Strategic Problem
-
-Global treasury operations face three structural risks:
-
-- Settlements executed during periods of abnormal market volatility  
-- Liquidity corridors that appear valid but fail at execution time  
-- Manual approval processes that cannot react to real‑time risk signals  
-
-These gaps expose organisations to **irreversible capital loss**, settlement failures, and regulatory scrutiny.
-
-**Axiom‑Zero addresses this by enforcing a deterministic “Stop / Go” decision before execution.**
+### 📝 Technical Governance & Scope
+To provide full transparency on the engine's architecture and performance metrics:
+* **Deployment Model:** Designed as a deterministic control prototype. In a production environment, this logic is intended to sit upstream of a TMS (Treasury Management System) or Payment API.
+* **Performance Metric:** The **99.57% Success Rate** reflects simulated settlement outcomes under permitted risk conditions within the model's high-fidelity dataset.
+* **Liquidity Validation:** Risk gates are modeled based on statistical variance and proxy-spread thresholds rather than direct exchange connectivity.
+* **Execution Logic:** Built in VBA to ensure binary (Stop/Go) decision integrity and an immutable audit trail.
 
 ---
 
-## Core Value Proposition
-
-### 1️⃣ Pre‑Execution Risk Gating
-All settlements are evaluated **before execution**, not after.
-
-Transactions are either:
-- 🟢 **Authorised** — risk conditions satisfied  
-- 🔴 **Hard‑Blocked** — execution prevented to preserve capital  
+## 🎯 Strategic Problem
+Global treasury operations face structural risks that manual processes cannot solve:
+* **Volatility Spikes:** Settlements executed during abnormal market swings.
+* **Liquidity Fails:** Corridors that appear valid but lack depth at execution time.
+* **Execution Lag:** Manual approval chains that cannot react to real-time risk signals.
 
 ---
 
-### 2️⃣ Volatility‑Aware Risk Logic
-Market instability is explicitly modeled using statistical variance thresholds to detect abnormal conditions that invalidate safe settlement execution.
+## ⚙️ Engineering & Risk Control Framework
+Axiom‑Zero replaces subjective "judgment calls" with deterministic financial logic:
 
-This prevents exposure during:
-- Volatility spikes  
-- Liquidity compression  
-- Stress events and dislocations  
-
----
-
-### 3️⃣ Executive‑Grade Decision Interface
-The dashboard provides a **zero‑interpretation control view** for senior stakeholders:
-
-- Clear Authorised / Blocked signals  
-- Traffic‑light settlement tables  
-- No technical noise or ambiguity  
+1.  **Dynamic Risk Thresholds:** Statistical variance models detect instability.
+2.  **Liquidity Validation Gates:** Corridors are validated via threshold-matching before execution.
+3.  **Binary Decision Logic:** Transactions are either **Approved** or **Blocked**—no "soft warnings."
+4.  **Immutable Audit Trail:** Every decision is logged for regulatory and internal audit review.
 
 ---
 
-## Dashboard Simulation Logic
-
-### Settlement Status (Illustrative)
-
-| Currency Pair | Status |
-|--------------|--------|
-| EUR → USD | 🟢 Authorised |
-| GBP → ZAR | 🔴 Blocked |
-| USD → JPY | 🟢 Authorised |
-| AUD → CAD | 🟢 Authorised |
-| CHF → GBP | 🔴 Blocked |
-
-This simulation demonstrates how treasury execution decisions are surfaced **instantly and unambiguously**.
-
----
-
-## Engineering & Risk Control Framework
-
-Axiom‑Zero is built on layered financial control logic:
-
-- **Dynamic Risk Thresholds**  
-  Statistical variance models detect abnormal market behaviour.
-
-- **Liquidity Validation Gates**  
-  Settlement corridors are validated before execution.
-
-- **Binary Decision Logic (VBA)**  
-  Transactions are either approved or blocked — no soft warnings.
-
-- **Immutable Audit Trail**  
-  Every decision is logged to support governance and review.
-
-**Verified performance:**  
-> **99.57% successful settlement execution rate** under permitted conditions.
-
----
-
-## Technical Architecture
-
+## 🛠️ Technical Architecture
 | Layer | Component | Purpose |
-|-----|----------|--------|
-| Control Engine | Excel Macro‑Enabled Workbook | Deterministic execution environment |
-| Logic Layer | VBA Risk Gates | Volatility & liquidity enforcement |
-| Telemetry | Statistical Variance Models | Market stability detection |
-| UI / UX | Executive Dashboard | Zero‑click decision clarity |
+| :--- | :--- | :--- |
+| **Control Engine** | Excel Macro‑Enabled (XLSM) | Deterministic execution environment |
+| **Logic Layer** | VBA Risk Gates | Hard-enforcement of volatility & liquidity rules |
+| **Telemetry** | Statistical Variance Models | Market stability and risk detection |
+| **UI / UX** | Executive Dashboard | Zero‑interpretation "Traffic Light" signals |
 
 ---
 
-## High‑Value Use Cases
+## 👨‍💻 Recruiter Note
+This project demonstrates the ability to design **Institutional Risk Controls** that prioritize capital preservation. It showcases a deep understanding of settlement risk, treasury operations, and the transition from manual "check-box" finance to **automated, deterministic governance.**
 
-- **Treasury Operations**  
-  Preventing execution during unstable market windows.
-
-- **Liquidity Risk Management**  
-  Blocking settlements when corridors are compromised.
-
-- **Finance Transformation**  
-  Replacing manual approvals with deterministic governance logic.
-
-- **Regulatory & Audit Readiness**  
-  Transparent, reviewable settlement decision records.
-
----
-
-## Repository Structure
-
-```text
-Project_4_Axiom-Zero-Global-Settlement/
-│
-├── assets/
-│   ├── Axiom_Dashboard_Green.png
-│   ├── Axiom_Dashboard_Red.png
-│   └── placeholder/
-│
-├── Axiom_Zero_Global_Ledger_Data.xlsm
-└── README.md
-
+**Directly applicable to:** *Treasury Operations • Risk Management • Finance Transformation • Capital Markets • Internal Audit*
