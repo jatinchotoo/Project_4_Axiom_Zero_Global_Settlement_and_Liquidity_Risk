@@ -58,7 +58,9 @@ Global treasury operations face structural risks that manual processes cannot so
 | **UI / UX** | Executive Dashboard | Zero‑interpretation "Traffic Light" signals |
 
 ---
+## Repository Structure
 
+```text
 Project_4_Axiom-Zero_Global_Settlement_Control/
 ├── assets/
 │   ├── Axiom_Dashboard_Green.png       # Authorized state evidence
@@ -66,7 +68,9 @@ Project_4_Axiom-Zero_Global_Settlement_Control/
 │   └── README_assets.md                # (Optional) Image documentation
 ├── Axiom_Zero_Global_Ledger_Data.xlsm  # Core Risk Engine & Execution Artifact
 └── README.md                           # Executive Case Study & Governance
+```
 
+---
 
 ## 👨‍💻 Recruiter Note
 This project demonstrates the ability to design **Institutional Risk Controls** that prioritize capital preservation. It showcases a deep understanding of settlement risk, treasury operations, and the transition from manual finance to **automated, deterministic governance.**
