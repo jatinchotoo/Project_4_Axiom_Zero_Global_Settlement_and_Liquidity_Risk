@@ -60,15 +60,12 @@ Global treasury operations face structural risks that manual processes cannot so
 ---
 
 Project_4_Axiom-Zero_Global_Settlement_Control/
-│
 ├── assets/
-│   ├── Axiom_Dashboard_Green.png
-│   ├── Axiom_Dashboard_Red.png
-│   └── README_assets.md        (optional, internal notes only)
-│
-├── Axiom_Zero_Global_Ledger_Data.xlsm
-│
-└── README.md
+│   ├── Axiom_Dashboard_Green.png       # Authorized state evidence
+│   ├── Axiom_Dashboard_Red.png         # Hard-blocked state evidence
+│   └── README_assets.md                # (Optional) Image documentation
+├── Axiom_Zero_Global_Ledger_Data.xlsm  # Core Risk Engine & Execution Artifact
+└── README.md                           # Executive Case Study & Governance
 
 
 ## 👨‍💻 Recruiter Note
